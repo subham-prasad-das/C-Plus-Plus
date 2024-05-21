@@ -1,0 +1,5 @@
+/*
+    -> The function overloading is a polymorphic behaviour where there is one name for the function, but multiple forms. The multiple forms arise out of varying signatures and args types recieved by the functions. When one overloaded function is called, the compiler matches the args passed with the signature of various functions with the same name. Once the match is found, the appr. function is linked at the compiler time itself. This is called early / static / compile-time binding.
+
+    -> When the function in the same name and signature are defined in both base class as well as derived class, the concept of the virtual fuction will be implemented. In these type of cases, the functions in base class and derived class are invoked with the help of he base class pointer. Hence, the conpiler delays the linking of the function to refer to till run-time. Although the function is called through the case class pointer, the actual functuon invoked will be determined at run-time. Since the function to be executed is determined only at run-time is called late / dynamic / run-time binding.
+*/
